@@ -1,2 +1,3 @@
-# Install dokku-alt
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/dokku-alt/dokku-alt/master/bootstrap.sh)" < /dev/null
+# Install dokku stable
+wget https://raw.github.com/progrium/dokku/v0.3.22/bootstrap.sh
+sudo DOKKU_TAG=v0.3.22 bash bootstrap.sh
